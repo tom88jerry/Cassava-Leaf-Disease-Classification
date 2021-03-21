@@ -32,6 +32,13 @@ I tried many different mixes of normalised loss functions (active and passive lo
 This is a good link to Bi-tempered logistic loss function
 https://ai.googleblog.com/2019/08/bi-tempered-logistic-loss-for-training.html
 
+Augmentations such as mixup, mixup without hestiation, cutmix, and fmix are very popular augmentation techniques in this competition to cope with noisy labels. I tried all of them but they did not provide good results. Only coarseDropout and cutout showed good scores. 
+
+Cutmix paper: https://arxiv.org/abs/1905.04899
+Mixup paper: https://arxiv.org/abs/1710.09412
+Mixup without hestiation paper: https://arxiv.org/abs/2101.04342
+Fmix paper: https://arxiv.org/abs/2002.12047
+
 In addition, I read the paper on "Pseudo-Labeling and Confirmation Bias in Deep Semi-Supervised Learning"
 https://arxiv.org/abs/1908.02983?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529
 
