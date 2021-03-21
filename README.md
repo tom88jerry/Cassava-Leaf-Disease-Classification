@@ -7,10 +7,10 @@
 
 My learning journey of Cassava Leaf Diseases competition. I spent around 3 full weeks on this competition. 
 
-##Goal: 
+## Goal: 
 To classify types of disease that presented on a Cassava Leaf. There five different labels: Cassava Bacterial Blight (CBB), Cassava Brown Streak Disease (CBSD), Cassava Green Mottle (CGM), Cassava Mosaic Disease (CMD) and Healthy.
 
-##Challenges: 
+## Challenges: 
 There are a few challenges in this competition.
 1. Imbalanced distribution between each class. There is a huge difference between the label 3 CMD to other classes. This may create a bias to the prediction. Hence, a weighted loss function or oversampling must be adopted. 
 2. Noisy label. There are quite a few of mislabelled images and multiple diseases within one image, which can affect the model prediction. To deal with this problem, there are several techniques that can be implemented such as label smoothing, mix-up, cut-mix augmentations.
