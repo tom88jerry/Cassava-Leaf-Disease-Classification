@@ -35,11 +35,11 @@ https://ai.googleblog.com/2019/08/bi-tempered-logistic-loss-for-training.html
 In addition, I read the paper on "Pseudo-Labeling and Confirmation Bias in Deep Semi-Supervised Learning"
 https://arxiv.org/abs/1908.02983?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529
 
-I did try to do pseudo labelling in this competition, but my model did not have high confidence level in the prediction due to the effect of label smoothing. Therefore, I think it is too risky to use low threshold in selecting the samples, so I did not use pseudo labelling in the end. 
+I tried to do pseudo labelling in this competition, but my model did not have high confidence level in the prediction due to the effect of label smoothing. Therefore, I think it is too risky to use low threshold in selecting the samples, so I did not use pseudo labelling in the end. 
 
 In my final submission, it is an ensemble of ViT and efficientnet models with a simple weight averaging. Deit and hybrid model did not have good CV compared to ViT and Efficientnet. 
 
-**My final ranking: Private LB 25/3900 teams 0.9011 (Top 1% silver medal) SOLO**
+**My final ranking: Private LB 25/3900 teams 0.9011 (Top 1% silver medal🥈) SOLO**
 
 ## Lessons learned, 
 It is my first competition in the Kaggle competition and also as a solo. I learned a lot in this competition including new architectures such ViT, Deit and hybrid. Moreover, dealing with noisy label is relatively new topic for me although it is very common in the real world data. 
