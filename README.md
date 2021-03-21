@@ -4,7 +4,7 @@
 * [Goal](#Goal)
 * [Challenges](#challenges)
 * [Summary](#summary)
-* [Lesson learned](#What I learned in this competition)
+* [Lesson_learned](#What I learned in this competition)
 
 My learning journey of Cassava Leaf Diseases competition. I spent around 3 full weeks on this competition. 
 
