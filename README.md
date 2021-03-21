@@ -4,8 +4,7 @@
 * [Goal](#Goal)
 * [Challenges](#challenges)
 * [Summary](#summary)
-* [Lesson](#Lesson learned)
-* 
+* [Lesson](#lesson)
 
 My learning journey of Cassava Leaf Diseases competition. I spent around 3 full weeks on this competition. 
 
@@ -41,5 +40,5 @@ In my final submission, it is an ensemble of ViT and efficientnet models with a 
 
 **My final ranking: Private LB 25/3900 teams 0.9011 (Top 1% silver medal) SOLO**
 
-## Lesson learned, 
+## Lesson, 
 It is my first competition in the Kaggle competition and also as a solo. I learned a lot in this competition including new architectures such ViT, Deit and hybrid. Moreover, dealing with noisy label is relatively new topic for me although it is very common in the real world data. 
